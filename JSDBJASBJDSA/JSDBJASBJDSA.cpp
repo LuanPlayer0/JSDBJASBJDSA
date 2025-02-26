@@ -43,9 +43,9 @@ public:
 int main()
 {
 	vehiculo auto1("Toyota", "Corolla", 20000);
-	motocicleta moto1("honda", "CBR", 15000, 250);
+	motocicleta auto2("honda", "CBR", 15000, 250);
 	auto1.mostrarinfo();
-	moto1.mostrarinfo();
+	auto2.mostrarinfo();
 	return 0;
 }
 
